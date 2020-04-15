@@ -6,7 +6,7 @@
 'use strict';
 
 console.log('x');
-mostPopularListingsApp
+mostPopularListingsApp2
 
 // Routing configuration for this module
 .config(['$routeProvider',function($routeprovider){
