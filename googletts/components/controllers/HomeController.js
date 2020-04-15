@@ -5,6 +5,7 @@
 
 'use strict';
 
+console.log('x')
 angular.module('mostPopularListingsApp.home', ['ngRoute'])
 
 // Routing configuration for this module
@@ -14,6 +15,7 @@ angular.module('mostPopularListingsApp.home', ['ngRoute'])
 		templateUrl: 'components/views/homeView.html'
 	});
 }])
+
 
 // Controller definition for this module
 .controller('HomeController', ['$scope', '$http', '$sce', '$timeout', function($scope, $http, $sce, $timeout) {
