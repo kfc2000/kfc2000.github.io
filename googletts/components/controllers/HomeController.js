@@ -6,11 +6,11 @@
 'use strict';
 
 console.log('x');
-mostPopularListingsApp2
+mostPopularListingsApp
 
 // Routing configuration for this module
 .config(['$routeProvider',function($routeprovider){
-	$routeprovider.when('/tts', {
+	$routeprovider.when('/', {
 		controller: 'HomeController',
 		templateUrl: 'components/views/homeView.html'
 	});
