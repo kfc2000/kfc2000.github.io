@@ -18,7 +18,7 @@ angular.module('mostPopularListingsApp.home', ['ngRoute'])
 // Controller definition for this module
 .controller('HomeController', ['$scope', '$http', '$sce', '$timeout', function($scope, $http, $sce, $timeout) {
 
-
+console.log('x')
 	$scope.message = 
 	{ 
 		text: "The Text-to-Speech API provides the following voices. The list includes both standard and WaveNet voices.", 
