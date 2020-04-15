@@ -10,7 +10,7 @@ angular.module('mostPopularListingsApp', ['ngRoute'])
 
 // Routing configuration for this module
 .config(['$routeProvider',function($routeprovider){
-	$routeprovider.when('/', {
+	$routeprovider.when('/tts', {
 		controller: 'HomeController',
 		templateUrl: 'components/views/homeView.html'
 	});
