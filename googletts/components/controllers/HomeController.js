@@ -6,7 +6,7 @@
 'use strict';
 
 console.log('x')
-angular.module('mostPopularListingsApp.home', ['ngRoute'])
+angular.module('mostPopularListingsApp', ['ngRoute'])
 
 // Routing configuration for this module
 .config(['$routeProvider',function($routeprovider){
