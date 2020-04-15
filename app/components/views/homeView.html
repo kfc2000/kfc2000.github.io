@@ -1,0 +1,30 @@
+<div class="center">
+	<div>Google Text-to-Speech Converter</div>
+	<br/>
+	<div>Enter your PI key here</div>
+	<input type='text' ng-model='message.apiKey' style='width: 100%' />
+
+	<br/>
+	<br/>
+	<div>Select your voice</div>
+	<select ng-model="message.voice">
+		<option value="en-US-Wavenet-A">en-US-Wavenet-A (male)</option>
+		<option value="en-US-Wavenet-B">en-US-Wavenet-B (male)</option>
+		<option value="en-US-Wavenet-C">en-US-Wavenet-C (female)</option>
+		<option value="en-US-Wavenet-D">en-US-Wavenet-D (male)</option>
+		<option value="en-US-Wavenet-E">en-US-Wavenet-E (female)</option>
+		<option value="en-US-Wavenet-F">en-US-Wavenet-F (female)</option>
+
+	</select>
+	<br/>
+	<br/>
+	<div>Enter your text here</div>
+	<textarea style="width:100%; height:200px" ng-model="message.text">
+	</textarea>
+	<button ng-click="submitSpeech()">
+		Submit
+	</button>
+	<br/>
+	<br/>
+	<audio id="audioControl" controls class="playback" ng-src="{{audio}}" controls autoplay ></audio>
+</div>
