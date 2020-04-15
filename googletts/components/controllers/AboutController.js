@@ -5,6 +5,7 @@
 
 'use strict';
 
+console.log('ab1')
 angular.module('mostPopularListingsApp.about', ['ngRoute'])
 
 // Routing configuration for this module
@@ -15,6 +16,7 @@ angular.module('mostPopularListingsApp.about', ['ngRoute'])
 	});
 }])
 
+console.log('ab2')
 // Controller definition for this module
 .controller('AboutController', ['$scope', function($scope) {
 
@@ -31,3 +33,4 @@ angular.module('mostPopularListingsApp.about', ['ngRoute'])
 	this.message = "Hello About!";
 
 }]);
+console.log('ab13)
