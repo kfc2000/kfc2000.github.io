@@ -5,7 +5,7 @@
 
 'use strict';
 
-console.log('x')
+console.log('x');
 angular.module('mostPopularListingsApp', ['ngRoute'])
 
 // Routing configuration for this module
@@ -17,10 +17,11 @@ angular.module('mostPopularListingsApp', ['ngRoute'])
 }])
 
 
+
 // Controller definition for this module
 .controller('HomeController', ['$scope', '$http', '$sce', '$timeout', function($scope, $http, $sce, $timeout) {
 
-console.log('x')
+console.log('x2')
 	$scope.message = 
 	{ 
 		text: "The Text-to-Speech API provides the following voices. The list includes both standard and WaveNet voices.", 
